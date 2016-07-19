@@ -1,0 +1,183 @@
+
+<!-- saved from url=(0031)http://localhost:3000/dashboard -->
+<html class="mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--<base href="/">--><base href=".">
+  <title>Angular 2 QuickStart</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./Angular 2 QuickStart_files/styles.css">
+  <link rel="stylesheet" href="./Angular 2 QuickStart_files/css">
+  <link rel="stylesheet" href="./Angular 2 QuickStart_files/icon">
+  <link rel="stylesheet" href="./Angular 2 QuickStart_files/material.cyan-light_blue.min.css">
+  <!-- 1. Load libraries -->
+  <!-- Polyfill(s) for older browsers -->
+  <script src="./Angular 2 QuickStart_files/shim.min.js"></script>
+  <script src="./Angular 2 QuickStart_files/zone.js"></script>
+  <script src="./Angular 2 QuickStart_files/Reflect.js"></script>
+  <script src="./Angular 2 QuickStart_files/system.src.js"></script>
+  <script defer="" src="./Angular 2 QuickStart_files/material.min.js"></script>
+  <!-- 2. Configure SystemJS -->
+  <script src="./Angular 2 QuickStart_files/systemjs.config.js"></script>
+  <script>
+    System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  <style>
+    html,
+    body {
+      
+      background:#333333;
+      color:white
+    }
+    
+    .demo-layout-transparent {
+   
+    }
+    
+    .demo-layout-transparent .mdl-layout__header,
+    .demo-layout-transparent .mdl-layout__drawer-button {
+      /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+      color: white;
+    }
+  </style>
+</head>
+<!-- 3. Display the application -->
+
+<body><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.2.13.0.js'><\/script>".replace("HOST", location.hostname));
+//]]></script><script async="" src="./Angular 2 QuickStart_files/browser-sync-client.2.13.0.js"></script>
+
+  <my-app> 
+                
+
+              <div class="mdl-layout__container"><div class="demo-layout-transparent mdl-layout mdl-js-layout has-drawer is-upgraded" data-upgraded=",MaterialLayout">
+                <header class="mdl-layout__header mdl-layout__header--transparent is-casting-shadow">
+                  <div class="mdl-layout__header-row">
+                    
+                    <span class="mdl-layout-title">Title</span>
+                    
+                    <div class="mdl-layout-spacer"></div>
+                    
+                    <nav class="mdl-navigation">
+                      <a class="mdl-navigation__link" href="http://localhost:3000/">Link</a>
+                      <a class="mdl-navigation__link" href="http://localhost:3000/">Link</a>
+                      <a class="mdl-navigation__link" href="http://localhost:3000/">Link</a>
+                      <a class="mdl-navigation__link" href="http://localhost:3000/">Link</a>
+                   
+                    </nav>
+                  </div>
+                </header>
+                <div class="mdl-layout__drawer" aria-hidden="true">
+                  <span class="mdl-layout-title">Title</span>
+                  <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="http://localhost:3000/">Link</a>
+                    <a class="mdl-navigation__link" href="http://localhost:3000/">Link</a>
+                    <a class="mdl-navigation__link" href="http://localhost:3000/">Link</a>
+                    <a class="mdl-navigation__link" href="http://localhost:3000/">Link</a>
+                    <a class="mdl-navigation__link router-link-active" href="http://localhost:3000/dashboard">Dashboard</a>
+                    <a class="mdl-navigation__link" href="http://localhost:3000/watchlist">Watch List</a> 
+                  </nav>
+                </div>
+                <div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><i class="material-icons"></i></div><main class="mdl-layout__content">
+                      <router-outlet class="mdl-grid"></router-outlet><my-dashboard _ngcontent-kps-2=""><div class="mdl-cell--8-col mdl-cell--4-offset">
+  <div class="mdl-grid">
+    <h2 class="mdl-cell--8-col mdl-cell--4-offset">Tracking</h2>
+    <!--template bindings={}--><div class="mdl-cell--4-col">
+      <div class="module hero">
+        <h4>GBPUSD</h4>
+      </div>
+    </div><div class="mdl-cell--4-col">
+      <div class="module hero">
+        <h4>NZDUSD</h4>
+      </div>
+    </div><div class="mdl-cell--4-col">
+      <div class="module hero">
+        <h4>EURUSD</h4>
+      </div>
+    </div><div class="mdl-cell--4-col">
+      <div class="module hero">
+        <h4>USDCAD</h4>
+      </div>
+    </div>
+    </div>
+    <h2 class="mdl-cell--8-col mdl-cell--4-offset">Portfolio</h2>
+    <div class="mdl-grid">
+      <!--template bindings={}--><div class="mdl-cell--4-col" style="margin-bottom: 10px;">
+
+        <div class="mdl-card">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
+          </div>
+          <div class="mdl-card__media">
+            <img alt="" border="0" height="157" src="./Angular 2 QuickStart_files/skytower.jpg" style="padding:10px;" width="173">
+          </div>
+          <div class="mdl-card__supporting-text">
+            The Sky Tower is an observation and telecommunications tower located in Auckland, New Zealand. It is 328 metres (1,076 ft)
+            tall, making it the tallest man-made structure in the Southern Hemisphere.
+          </div>
+          <div class="mdl-card__actions">
+            <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
+          </div>
+        </div>
+      </div><div class="mdl-cell--4-col" style="margin-bottom: 10px;">
+
+        <div class="mdl-card">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
+          </div>
+          <div class="mdl-card__media">
+            <img alt="" border="0" height="157" src="./Angular 2 QuickStart_files/skytower.jpg" style="padding:10px;" width="173">
+          </div>
+          <div class="mdl-card__supporting-text">
+            The Sky Tower is an observation and telecommunications tower located in Auckland, New Zealand. It is 328 metres (1,076 ft)
+            tall, making it the tallest man-made structure in the Southern Hemisphere.
+          </div>
+          <div class="mdl-card__actions">
+            <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
+          </div>
+        </div>
+      </div><div class="mdl-cell--4-col" style="margin-bottom: 10px;">
+
+        <div class="mdl-card">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
+          </div>
+          <div class="mdl-card__media">
+            <img alt="" border="0" height="157" src="./Angular 2 QuickStart_files/skytower.jpg" style="padding:10px;" width="173">
+          </div>
+          <div class="mdl-card__supporting-text">
+            The Sky Tower is an observation and telecommunications tower located in Auckland, New Zealand. It is 328 metres (1,076 ft)
+            tall, making it the tallest man-made structure in the Southern Hemisphere.
+          </div>
+          <div class="mdl-card__actions">
+            <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
+          </div>
+        </div>
+      </div><div class="mdl-cell--4-col" style="margin-bottom: 10px;">
+
+        <div class="mdl-card">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
+          </div>
+          <div class="mdl-card__media">
+            <img alt="" border="0" height="157" src="./Angular 2 QuickStart_files/skytower.jpg" style="padding:10px;" width="173">
+          </div>
+          <div class="mdl-card__supporting-text">
+            The Sky Tower is an observation and telecommunications tower located in Auckland, New Zealand. It is 328 metres (1,076 ft)
+            tall, making it the tallest man-made structure in the Southern Hemisphere.
+          </div>
+          <div class="mdl-card__actions">
+            <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div></my-dashboard>
+                </main>
+           <div class="mdl-layout__obfuscator"></div></div></div>
+               </my-app>
+ 
+
+
+</body></html>
