@@ -11,6 +11,10 @@ def get_number_of_inversions(a, b, left, right):
     #write your code here
     return number_of_inversions
 
+def merge_and_count(a, b):
+
+    return 0
+
 if __name__ == '__main__':
     input = sys.stdin.read()
     n, *a = list(map(int, input.split()))
